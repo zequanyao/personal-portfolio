@@ -207,15 +207,6 @@
       "link": "https://doi.org/10.1016/j.tws.2025.113721"
     },
     {
-      "year": "2025",
-      "type": "论文",
-      "title": "Geometrical Feature Classification in Electrical Discharge Machining Using In-Process Monitoring and Machine Learning",
-      "authors": "Ming Wu, Zequan Yao, Long Ye, Mathias Verbeke, Peter Karsmakers, Dominiek Reynaerts*",
-      "venue": "Procedia CIRP",
-      "preview": "/personal-portfolio/assets/uploads/Geometrical Feature Classification in Electrical Discharge Machining Using.jpg",
-      "link": "https://doi.org/10.1016/j.procir.2025.07.010"
-    },
-    {
       "year": "2026",
       "type": "论文",
       "title": "Non-invasive radio frequency (RF)-driven in-process monitoring and control for enhancing micro-electrical discharge machining stability and efficiency",
@@ -223,6 +214,15 @@
       "venue": "Mechanical Systems and Signal Processing",
       "preview": "/personal-portfolio/assets/uploads/Non-invasive radio frequency (RF)-driven in-process monitoring.jpg",
       "link": "https://doi.org/10.1016/j.ymssp.2026.114072"
+    },
+    {
+      "year": "2025",
+      "type": "论文",
+      "title": "Geometrical Feature Classification in Electrical Discharge Machining Using In-Process Monitoring and Machine Learning",
+      "authors": "Ming Wu, Zequan Yao, Long Ye, Mathias Verbeke, Peter Karsmakers, Dominiek Reynaerts*",
+      "venue": "Procedia CIRP",
+      "preview": "/personal-portfolio/assets/uploads/Geometrical Feature Classification in Electrical Discharge Machining Using.jpg",
+      "link": "https://doi.org/10.1016/j.procir.2025.07.010"
     },
     {
       "year": "2025",
