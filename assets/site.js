@@ -84,18 +84,21 @@ function renderResearchFilters() {
   `).join("");
 }
 
-function renderHonors() {
-  const honorTypes = ["个人荣誉", "竞赛奖励"];
-  byId("honor-stats").innerHTML = honorTypes.map((type) => `
-    <span class="stat-chip">${type}<strong>${content.honors.filter((item) => item.type === type).length}</strong></span>
-  `).join("");
-  byId("honor-list").innerHTML = sortNewestFirst(content.honors).map((honor) => `
+function renderHonorGroup(targetId, countId, type) {
+  const items = content.honors.filter((item) => item.type === type);
+  byId(countId).textContent = items.length;
+  byId(targetId).innerHTML = sortNewestFirst(items).map((honor) => `
     <article class="certificate">
       <span class="certificate-icon">★</span>
       ${previewButton(honor.name, honor.preview)}
-      <p>${escapeHtml(honor.type)} · ${escapeHtml(honor.issuer)} · ${escapeHtml(honor.year)}</p>
+      <p>${escapeHtml(honor.issuer)} · ${escapeHtml(honor.year)}</p>
     </article>
   `).join("");
+}
+
+function renderHonors() {
+  renderHonorGroup("personal-honor-list", "personal-honor-count", "个人荣誉");
+  renderHonorGroup("competition-list", "competition-count", "竞赛奖励");
 }
 
 const dialog = byId("preview-dialog");
