@@ -74,12 +74,21 @@ function renderResearch(filter = "全部") {
 
 function renderResearchFilters() {
   const filters = ["全部", "论文", "会议", "专利", "软件著作权"];
+  const countFor = (filter) => filter === "全部"
+    ? content.research.length
+    : content.research.filter((item) => item.type === filter).length;
   byId("research-filters").innerHTML = filters.map((filter, index) => `
-    <button class="filter-button${index === 0 ? " active" : ""}" data-research-filter="${filter}">${filter}</button>
+    <button class="filter-button${index === 0 ? " active" : ""}" data-research-filter="${filter}">
+      ${filter}<span class="count-badge">${countFor(filter)}</span>
+    </button>
   `).join("");
 }
 
 function renderHonors() {
+  const honorTypes = ["个人荣誉", "竞赛奖励"];
+  byId("honor-stats").innerHTML = honorTypes.map((type) => `
+    <span class="stat-chip">${type}<strong>${content.honors.filter((item) => item.type === type).length}</strong></span>
+  `).join("");
   byId("honor-list").innerHTML = sortNewestFirst(content.honors).map((honor) => `
     <article class="certificate">
       <span class="certificate-icon">★</span>
