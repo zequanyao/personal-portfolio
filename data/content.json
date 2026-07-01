@@ -81,12 +81,12 @@
   ],
   "research": [
     {
-      "year": "2025",
-      "type": "论文",
-      "title": "示例论文：先进涂层的组织与性能研究",
-      "authors": "Zequan Yao，合作者",
-      "venue": "示例材料期刊",
-      "preview": "assets/previews/paper-example.svg",
+      "year": "2022",
+      "type": "专利",
+      "title": "基于监测加速度的薄壁件侧铣加工表面粗糙度预测方法",
+      "authors": "张定华；姚泽全；罗明；梅嘉炜；樊畅；郑志阳",
+      "venue": "国家知识产权局",
+      "preview": "/personal-portfolio/assets/uploads/基于监测加速度的薄壁件侧铣加工表面粗糙度预测方法.jpg",
       "link": ""
     },
     {
