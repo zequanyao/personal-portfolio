@@ -64,7 +64,7 @@ function renderResearch(filter = "全部") {
 }
 
 function renderResearchFilters() {
-  const filters = ["全部", "论文", "专利", "软件著作权"];
+  const filters = ["全部", "论文", "会议", "专利", "软件著作权"];
   byId("research-filters").innerHTML = filters.map((filter, index) => `
     <button class="filter-button${index === 0 ? " active" : ""}" data-research-filter="${filter}">${filter}</button>
   `).join("");
