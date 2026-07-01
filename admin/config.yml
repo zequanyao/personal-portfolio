@@ -9,6 +9,19 @@ backend:
 media_folder: assets/uploads
 public_folder: /personal-portfolio/assets/uploads
 
+# 新上传的位图会在浏览器中自动缩放并转换为 WebP，减少仓库体积与上传时间。
+media_libraries:
+  all:
+    slugify_filename: true
+    transformations:
+      raster_image:
+        format: webp
+        quality: 82
+        width: 1800
+        height: 1800
+      svg:
+        optimize: true
+
 collections:
   - name: website
     label: 网站内容
