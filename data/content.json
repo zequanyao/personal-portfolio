@@ -106,6 +106,15 @@
       "venue": "中华人民共和国国家版权局",
       "preview": "/personal-portfolio/assets/uploads/姚泽全软著证书.jpg",
       "link": ""
+    },
+    {
+      "year": "2023",
+      "type": "论文",
+      "title": "Position-dependent milling process monitoring and surface roughness prediction for complex thin-walled blade component",
+      "authors": "Zequan Yao; Jingyuan Shen; Ming Wu; Dinghua Zhang; Ming Luo*",
+      "venue": "Mechanical Systems and Signal Processing",
+      "preview": "/personal-portfolio/assets/uploads/Position-dependent milling process monitoring and surface.jpg",
+      "link": "10.1016/j.ymssp.2023.110439"
     }
   ],
   "honors": [
