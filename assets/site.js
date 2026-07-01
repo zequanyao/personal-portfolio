@@ -11,9 +11,16 @@ function renderProfile() {
   byId("profile-intro").textContent = content.profile.intro;
   byId("about-text").textContent = content.profile.about;
   byId("email-link").href = `mailto:${content.profile.email}`;
+  byId("profile-photo").src = content.profile.photo;
+  byId("profile-photo").alt = `${content.profile.name} 的个人照片`;
   byId("profile-meta").innerHTML = [content.profile.location, content.profile.focus]
     .map((item) => `<span>${escapeHtml(item)}</span>`).join("");
   document.title = `${content.profile.name} · 个人主页`;
+  byId("profile-links").innerHTML = content.profileLinks.map((link) => link.url ? `
+    <a class="profile-link" href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer">
+      <span>${escapeHtml(link.name)}</span><span aria-hidden="true">↗</span>
+    </a>
+  ` : `<span class="profile-link pending"><span>${escapeHtml(link.name)}</span><small>链接待补充</small></span>`).join("");
 }
 
 function renderProjects() {
@@ -33,31 +40,8 @@ function previewButton(title, image) {
   return `<button class="preview-button" data-preview-title="${escapeHtml(title)}" data-preview-image="${escapeHtml(image)}">${escapeHtml(title)}</button>`;
 }
 
-function renderPublications() {
-  byId("publication-list").innerHTML = content.publications.map((publication) => `
-    <article class="publication">
-      <span class="publication-year">${escapeHtml(publication.year)}</span>
-      <div>
-        ${previewButton(publication.title, publication.preview)}
-        <p class="publication-meta">${escapeHtml(publication.authors)} · ${escapeHtml(publication.venue)}</p>
-      </div>
-      ${publication.link ? `<a class="external-link" href="${escapeHtml(publication.link)}" target="_blank" rel="noopener noreferrer">论文链接 ↗</a>` : ""}
-    </article>
-  `).join("");
-}
-
-function renderCertificates() {
-  byId("certificate-list").innerHTML = content.certificates.map((certificate) => `
-    <article class="certificate">
-      <span class="certificate-icon">✓</span>
-      ${previewButton(certificate.name, certificate.preview)}
-      <p>${escapeHtml(certificate.issuer)} · ${escapeHtml(certificate.year)}</p>
-    </article>
-  `).join("");
-}
-
-function renderExperience() {
-  byId("experience-list").innerHTML = content.experience.map((item) => `
+function renderTimeline(target, items) {
+  byId(target).innerHTML = items.map((item) => `
     <article class="timeline-item">
       <span class="timeline-date">${escapeHtml(item.period)}</span>
       <div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.organization)} · ${escapeHtml(item.description)}</p></div>
@@ -65,14 +49,51 @@ function renderExperience() {
   `).join("");
 }
 
+function renderResearch(filter = "全部") {
+  const items = filter === "全部" ? content.research : content.research.filter((item) => item.type === filter);
+  byId("research-list").innerHTML = items.map((item) => `
+    <article class="publication">
+      <span class="publication-year">${escapeHtml(item.year)}</span>
+      <div>
+        ${previewButton(item.title, item.preview)}
+        <p class="publication-meta"><span class="result-type">${escapeHtml(item.type)}</span> ${escapeHtml(item.authors)} · ${escapeHtml(item.venue)}</p>
+      </div>
+      ${item.link ? `<a class="external-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener noreferrer">外部链接 ↗</a>` : ""}
+    </article>
+  `).join("");
+}
+
+function renderResearchFilters() {
+  const filters = ["全部", "论文", "专利", "软件著作权"];
+  byId("research-filters").innerHTML = filters.map((filter, index) => `
+    <button class="filter-button${index === 0 ? " active" : ""}" data-research-filter="${filter}">${filter}</button>
+  `).join("");
+}
+
+function renderHonors() {
+  byId("honor-list").innerHTML = content.honors.map((honor) => `
+    <article class="certificate">
+      <span class="certificate-icon">★</span>
+      ${previewButton(honor.name, honor.preview)}
+      <p>${escapeHtml(honor.type)} · ${escapeHtml(honor.issuer)} · ${escapeHtml(honor.year)}</p>
+    </article>
+  `).join("");
+}
+
 const dialog = byId("preview-dialog");
 document.addEventListener("click", (event) => {
+  const filterButton = event.target.closest("[data-research-filter]");
+  if (filterButton) {
+    document.querySelectorAll("[data-research-filter]").forEach((button) => button.classList.toggle("active", button === filterButton));
+    renderResearch(filterButton.dataset.researchFilter);
+    return;
+  }
   const button = event.target.closest("[data-preview-image]");
   if (!button) return;
   byId("preview-title").textContent = button.dataset.previewTitle;
   byId("preview-image").src = button.dataset.previewImage;
   byId("preview-image").alt = `${button.dataset.previewTitle}预览`;
-  byId("preview-note").textContent = "当前使用示例图片；替换图片文件和 data/content.js 中的路径即可更新。";
+  byId("preview-note").textContent = "图片仅用于成果预览；请勿未经许可转载或用于其他用途。";
   dialog.showModal();
 });
 byId("close-preview").addEventListener("click", () => dialog.close());
@@ -82,7 +103,9 @@ dialog.addEventListener("click", (event) => {
 
 renderProfile();
 renderProjects();
-renderPublications();
-renderCertificates();
-renderExperience();
+renderTimeline("work-list", content.workExperience);
+renderTimeline("education-list", content.education);
+renderResearchFilters();
+renderResearch();
+renderHonors();
 byId("current-year").textContent = new Date().getFullYear();

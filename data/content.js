@@ -1,13 +1,35 @@
 // 这是网站主要内容文件。修改引号中的文字后提交到 GitHub，网站会自动更新。
 window.SITE_CONTENT = {
   profile: {
-    name: "林晓",
-    email: "hello@example.com",
+    name: "Zequan Yao",
+    email: "zequanyao1@gmail.com",
     location: "比利时 · 布鲁塞尔",
-    focus: "材料工程 / 数据分析",
-    intro: "我关注材料工程与数据分析，喜欢把研究想法变成清晰、可靠的成果。",
-    about: "目前专注于先进材料与表面工程方向的学习和研究。我重视扎实的方法、清楚的表达，也乐于探索数据工具如何帮助我们更好地理解实验结果。这个网站用于整理我的项目、论文、证书与成长经历。"
+    focus: "材料工程 / 表面工程 / 数据分析",
+    photo: "photos/profile photo/Zequan Yao- official.png",
+    intro: "我关注先进材料、表面工程与数据分析，致力于把研究问题转化为清晰、可靠且有价值的成果。",
+    about: "这里汇集了我的学术主页、专业经历和研究成果。你可以通过下方平台进一步了解我的论文、合作网络与职业背景。"
   },
+  profileLinks: [
+    { name: "Google Scholar", url: "" },
+    { name: "ResearchGate", url: "" },
+    { name: "LinkedIn", url: "" }
+  ],
+  workExperience: [
+    {
+      period: "待补充",
+      title: "职位名称",
+      organization: "单位或公司名称",
+      description: "在此补充工作职责、研究方向与代表性成果。"
+    }
+  ],
+  education: [
+    {
+      period: "待补充",
+      title: "学位与专业",
+      organization: "学校名称",
+      description: "在此补充研究方向、导师或主要学习经历。"
+    }
+  ],
   projects: [
     {
       title: "材料性能数据分析",
@@ -25,42 +47,49 @@ window.SITE_CONTENT = {
       tags: ["知识管理", "设计"]
     }
   ],
-  publications: [
+  research: [
     {
       year: "2025",
+      type: "论文",
       title: "示例论文：先进涂层的组织与性能研究",
-      authors: "林晓，合作者",
+      authors: "Zequan Yao，合作者",
       venue: "示例材料期刊",
       preview: "assets/previews/paper-example.svg",
       link: ""
+    },
+    {
+      year: "2025",
+      type: "专利",
+      title: "示例专利：一种先进涂层制备方法",
+      authors: "Zequan Yao，合作者",
+      venue: "国家知识产权局",
+      preview: "assets/previews/certificate-example.svg",
+      link: ""
+    },
+    {
+      year: "2024",
+      type: "软件著作权",
+      title: "示例软件：材料数据分析系统",
+      authors: "Zequan Yao",
+      venue: "计算机软件著作权登记",
+      preview: "assets/previews/certificate-example.svg",
+      link: ""
     }
   ],
-  certificates: [
+  honors: [
     {
-      name: "示例证书：数据分析基础",
+      name: "示例荣誉：优秀研究成果奖",
+      type: "个人荣誉",
       issuer: "示例机构",
       year: "2024",
       preview: "assets/previews/certificate-example.svg"
     },
     {
-      name: "示例荣誉：优秀项目奖",
+      name: "示例竞赛：创新设计竞赛奖",
+      type: "竞赛奖励",
       issuer: "示例机构",
       year: "2025",
       preview: "assets/previews/certificate-example.svg"
-    }
-  ],
-  experience: [
-    {
-      period: "2024 — 至今",
-      title: "材料工程 · 硕士",
-      organization: "示例大学",
-      description: "研究方向：先进涂层与表面工程。"
-    },
-    {
-      period: "2020 — 2024",
-      title: "材料科学与工程 · 本科",
-      organization: "示例大学",
-      description: "完成材料表征、工程设计与数据分析相关课程。"
     }
   ]
 };
