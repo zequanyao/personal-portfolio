@@ -381,6 +381,27 @@
       "issuer": "西北工业大学",
       "year": "2019",
       "preview": "/personal-portfolio/assets/uploads/201906本科优秀毕业生.jpg"
+    },
+    {
+      "name": "优秀共产党员",
+      "type": "个人荣誉",
+      "issuer": "西北工业大学机电学院",
+      "year": "2021",
+      "preview": "/personal-portfolio/assets/uploads/202101院级优秀共产党员.jpg"
+    },
+    {
+      "name": "硕士优秀毕业生",
+      "type": "个人荣誉",
+      "issuer": "西北工业大学",
+      "year": "2022",
+      "preview": "/personal-portfolio/assets/uploads/202203硕士优秀毕业生.jpg"
+    },
+    {
+      "name": "本科优秀毕业论文",
+      "type": "个人荣誉",
+      "issuer": "西北工业大学",
+      "year": "2019",
+      "preview": "/personal-portfolio/assets/uploads/20190620优秀本科毕业设计.jpg"
     }
   ]
 }
