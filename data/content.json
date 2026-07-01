@@ -259,6 +259,42 @@
       "venue": "Special Interest Conference: Micro/Nano Manufacturing & 6th AET Symposium on ACSM and Digital Manufacturing",
       "preview": "/personal-portfolio/assets/uploads/In-process monitoring and servo control with cost-effective radio frequency (RF) signal in micro-EDM.jpg",
       "link": ""
+    },
+    {
+      "year": "2023",
+      "type": "会议",
+      "title": "Crater identification of different pulse types in micro electrical discharge machining",
+      "authors": "Zequan Yao, Long Ye, Krishna Kumar Saxena, Ming Wu, Jun Qian, Dominiek Reynaerts",
+      "venue": "euspen’s Special Interest Group meeting on Micro/ Nano Manufacturing",
+      "preview": "/personal-portfolio/assets/uploads/Crater identification of different pulse types in micro electrical discharge machining.jpg",
+      "link": ""
+    },
+    {
+      "year": "2022",
+      "type": "会议",
+      "title": "Research on mapping of monitored acceleration and surface roughness in milling of thin-walled parts",
+      "authors": "Zequan Yao, Jun Qian, Dominiek Reynaerts",
+      "venue": "2022 Flanders Make Scientific Conference",
+      "preview": "/personal-portfolio/assets/uploads/Research on mapping of monitored acceleration and surface roughness in milling of thin-walled parts.jpg",
+      "link": ""
+    },
+    {
+      "year": "2024",
+      "type": "会议",
+      "title": "Electrical micro-manufacturing technologiesat the Micro- & Precision Engineering group: Process capabilities and analysis",
+      "authors": "Muhammad Hazak Arshas, Zequan Yao, Krishna Kumar Saxena, Jun Qian, Dominiek Reynaerts",
+      "venue": "2024 Flanders Make Scientific Conference",
+      "preview": "/personal-portfolio/assets/uploads/Electrical micro-manufacturing technologies Process capabilities and analysis.jpg",
+      "link": ""
+    },
+    {
+      "year": "2023",
+      "type": "会议",
+      "title": "Prediction of crater morphology and its application for enhancing dimentional accuracy in micro-EDM",
+      "authors": "Zequan Yao, Ming Wu, Jun Qian, Dominiek Reynaerts",
+      "venue": "2023 Flanders Make Scientific Conference",
+      "preview": "/personal-portfolio/assets/uploads/Prediction of crater morphology and its application for enhancing dimentional accuracy in micro-EDM.jpg",
+      "link": ""
     }
   ],
   "honors": [
