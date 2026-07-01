@@ -101,7 +101,7 @@ collections:
               - { label: 成果名称, name: title, widget: string }
               - { label: 作者, name: authors, widget: string }
               - { label: 期刊或登记机构, name: venue, widget: string }
-              - { label: 首页或证书预览, name: preview, widget: image }
+              - { label: 首页或证书预览, name: preview, widget: image, required: false }
               - { label: 外部链接, name: link, widget: string, required: false }
 
           - label: 个人荣誉与竞赛奖励
@@ -117,4 +117,4 @@ collections:
                 options: [个人荣誉, 竞赛奖励]
               - { label: 颁发机构, name: issuer, widget: string }
               - { label: 年份, name: year, widget: string }
-              - { label: 证书预览, name: preview, widget: image }
+              - { label: 证书预览, name: preview, widget: image, required: false }
