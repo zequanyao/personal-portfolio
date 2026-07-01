@@ -187,6 +187,69 @@
       "venue": "Journal of Materials Processing Technology",
       "preview": "/personal-portfolio/assets/uploads/On-machine evaluation of micro-EDM process signature in radio frequency.jpg",
       "link": "https://doi.org/10.1016/j.jmatprotec.2024.118663"
+    },
+    {
+      "year": "2025",
+      "type": "论文",
+      "title": "Advancements in process monitoring and quality control for electrical discharge machining: A comprehensive review",
+      "authors": "Zequan Yao, Jia Ge, Peiyao Cao, Ming Wu, Jun Qian, Yong Li, Dominiek Reynaerts*",
+      "venue": "Journal of Materials Processing Technology",
+      "preview": "/personal-portfolio/assets/uploads/Advancements in process monitoring and quality control for electrical.jpg",
+      "link": "https://doi.org/10.1016/j.jmatprotec.2025.119081"
+    },
+    {
+      "year": "2025",
+      "type": "论文",
+      "title": "Data-driven CFRP machining performance prediction and optimization: Advances, challenges and future prospects",
+      "authors": "Jia Ge, Jiduo Zhang, Moran Xu, Ming Wu, Zequan Yao, Guoyu Fu, Wenchang Zhang, Brian G Falzon, Giuseppe Catalanotti, Jinyang Xu, Yan Jin, Dan Sun",
+      "venue": "Thin-Walled Structures",
+      "preview": "/personal-portfolio/assets/uploads/Data-driven CFRP machining performance prediction and optimization.jpg",
+      "link": "https://doi.org/10.1016/j.tws.2025.113721"
+    },
+    {
+      "year": "2025",
+      "type": "论文",
+      "title": "Geometrical Feature Classification in Electrical Discharge Machining Using In-Process Monitoring and Machine Learning",
+      "authors": "Ming Wu, Zequan Yao, Long Ye, Mathias Verbeke, Peter Karsmakers, Dominiek Reynaerts*",
+      "venue": "Procedia CIRP",
+      "preview": "/personal-portfolio/assets/uploads/Geometrical Feature Classification in Electrical Discharge Machining Using.jpg",
+      "link": "https://doi.org/10.1016/j.procir.2025.07.010"
+    },
+    {
+      "year": "2026",
+      "type": "论文",
+      "title": "Non-invasive radio frequency (RF)-driven in-process monitoring and control for enhancing micro-electrical discharge machining stability and efficiency",
+      "authors": "Zequan Yao, Ming Wu, Jun Qian, Dominiek Reynaerts*",
+      "venue": "Mechanical Systems and Signal Processing",
+      "preview": "/personal-portfolio/assets/uploads/Non-invasive radio frequency (RF)-driven in-process monitoring.jpg",
+      "link": "https://doi.org/10.1016/j.ymssp.2026.114072"
+    },
+    {
+      "year": "2025",
+      "type": "论文",
+      "title": "Tool wear evaluation and its evolution in micro-EDM using radio frequency (RF) signals",
+      "authors": "Zequan Yao, Ming Wu, Jun Qian, Dominiek Reynaerts*",
+      "venue": "Procedia CIRP",
+      "preview": "/personal-portfolio/assets/uploads/Tool wear evaluation and its evolution in micro-EDM using radio.jpg",
+      "link": "https://doi.org/10.1016/j.procir.2025.07.006"
+    },
+    {
+      "year": "2024",
+      "type": "论文",
+      "title": "Radio Frequency (RF) based process signature of micro-EDM process: Process considerations and involved mechanisms",
+      "authors": "Zequan Yao, Krishna Kumar Saxena, Vladimir Volski, Jun Qian, Guy Vandenbosch, Dominiek Reynaerts*",
+      "venue": "Proceedings of WCMNM2024",
+      "preview": "/personal-portfolio/assets/uploads/Radio Frequency (RF) Based Process Signature of Micro-EDM Process.jpg",
+      "link": ""
+    },
+    {
+      "year": "2025",
+      "type": "论文",
+      "title": "A threshold-free and label-free pipeline for adaptive pulse classification in electrical discharge machining",
+      "authors": "Ming Wu, Zequan Yao, Robrecht Abts, Peter Karsmakers, Mathias Verbeke, Dominiek Reynaerts*",
+      "venue": "Procedia CIRP",
+      "preview": "/personal-portfolio/assets/uploads/A Threshold-Free and Label-Free Pipeline for Adaptive Pulse Classification in Electrical Discharge Machining.jpg",
+      "link": ""
     }
   ],
   "honors": [
