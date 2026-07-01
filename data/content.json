@@ -115,6 +115,24 @@
       "venue": "Mechanical Systems and Signal Processing",
       "preview": "/personal-portfolio/assets/uploads/Position-dependent milling process monitoring and surface.jpg",
       "link": "https://doi.org/10.1016/j.ymssp.2023.110439"
+    },
+    {
+      "year": "2024",
+      "type": "论文",
+      "title": "Extreme learning machine oriented surface roughness prediction at continuous cutting positions based on monitored acceleration",
+      "authors": "Zequan Yao; Puyu Zhang; Ming Luo*",
+      "venue": "Mechanical Systems and Signal Processing",
+      "preview": "/personal-portfolio/assets/uploads/Extreme learning machine oriented surface roughness prediction.jpg",
+      "link": "https://doi.org/10.1016/j.ymssp.2024.111633"
+    },
+    {
+      "year": "2025",
+      "type": "论文",
+      "title": "Data-driven models with physical interpretability for real-time cavity profile prediction in electrochemical machining processes",
+      "authors": "Ming Wu; Zequan Yao; Mathias Verbeke; Peter Karsmakers; Benjamin Gorissen; Dominiek Reynaerts*",
+      "venue": "Engineering Applications of Artificial Intelligence",
+      "preview": "/personal-portfolio/assets/uploads/Data-driven models with physical interpretability for real-time cavity profile.jpg",
+      "link": "https://doi.org/10.1016/j.engappai.2025.111807"
     }
   ],
   "honors": [
