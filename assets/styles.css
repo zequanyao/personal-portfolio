@@ -19,6 +19,7 @@ body {
 }
 a { color: inherit; }
 button, a { -webkit-tap-highlight-color: transparent; }
+.load-error { margin: 20px 0; padding: 14px 18px; color: #7b231d; background: #f9ddd8; border-radius: 10px; }
 
 .site-header {
   position: sticky;

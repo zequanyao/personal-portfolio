@@ -1,0 +1,107 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: zequanyao/personal-portfolio
+  branch: main
+  auth_methods: [token]
+
+media_folder: assets/uploads
+public_folder: /personal-portfolio/assets/uploads
+
+collections:
+  - name: website
+    label: 网站内容
+    files:
+      - name: content
+        label: 编辑个人网站
+        file: data/content.json
+        format: json
+        fields:
+          - label: 个人信息
+            name: profile
+            widget: object
+            fields:
+              - { label: 姓名, name: name, widget: string }
+              - { label: 邮箱, name: email, widget: string }
+              - { label: 所在地, name: location, widget: string }
+              - { label: 研究方向, name: focus, widget: text }
+              - { label: 个人照片, name: photo, widget: image }
+              - { label: 首页简介, name: intro, widget: text }
+              - { label: 主页链接区介绍, name: about, widget: text }
+
+          - label: 其他个人主页
+            name: profileLinks
+            widget: list
+            label_singular: 个人主页
+            summary: "{{fields.name}}"
+            fields:
+              - { label: 平台名称, name: name, widget: string }
+              - { label: 网址, name: url, widget: string }
+
+          - label: 工作经历
+            name: workExperience
+            widget: list
+            label_singular: 工作经历
+            summary: "{{fields.period}} · {{fields.title}}"
+            fields:
+              - { label: 时间, name: period, widget: string }
+              - { label: 职位, name: title, widget: string }
+              - { label: 单位或公司, name: organization, widget: string }
+              - { label: 经历介绍, name: description, widget: text }
+
+          - label: 教育背景
+            name: education
+            widget: list
+            label_singular: 教育经历
+            summary: "{{fields.period}} · {{fields.organization}}"
+            fields:
+              - { label: 时间, name: period, widget: string }
+              - { label: 学位与专业, name: title, widget: string }
+              - { label: 学校, name: organization, widget: string }
+              - { label: 经历介绍, name: description, widget: text }
+
+          - label: 个人项目
+            name: projects
+            widget: list
+            label_singular: 项目
+            summary: "{{fields.title}}"
+            fields:
+              - { label: 项目名称, name: title, widget: string }
+              - { label: 项目介绍, name: description, widget: text }
+              - label: 标签
+                name: tags
+                widget: list
+                field: { label: 标签, name: tag, widget: string }
+
+          - label: 论文、专利与软著
+            name: research
+            widget: list
+            label_singular: 学术成果
+            summary: "{{fields.year}} · {{fields.type}} · {{fields.title}}"
+            fields:
+              - { label: 年份, name: year, widget: string }
+              - label: 类型
+                name: type
+                widget: select
+                options: [论文, 专利, 软件著作权]
+              - { label: 成果名称, name: title, widget: string }
+              - { label: 作者, name: authors, widget: string }
+              - { label: 期刊或登记机构, name: venue, widget: string }
+              - { label: 首页或证书预览, name: preview, widget: image }
+              - { label: 外部链接, name: link, widget: string, required: false }
+
+          - label: 个人荣誉与竞赛奖励
+            name: honors
+            widget: list
+            label_singular: 荣誉或奖励
+            summary: "{{fields.year}} · {{fields.name}}"
+            fields:
+              - { label: 名称, name: name, widget: string }
+              - label: 类型
+                name: type
+                widget: select
+                options: [个人荣誉, 竞赛奖励]
+              - { label: 颁发机构, name: issuer, widget: string }
+              - { label: 年份, name: year, widget: string }
+              - { label: 证书预览, name: preview, widget: image }

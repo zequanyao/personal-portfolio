@@ -1,4 +1,4 @@
-const content = window.SITE_CONTENT;
+let content;
 
 const byId = (id) => document.getElementById(id);
 const escapeHtml = (value = "") => String(value).replace(/[&<>'"]/g, (char) => ({
@@ -101,11 +101,21 @@ dialog.addEventListener("click", (event) => {
   if (event.target === dialog) dialog.close();
 });
 
-renderProfile();
-renderProjects();
-renderTimeline("work-list", content.workExperience);
-renderTimeline("education-list", content.education);
-renderResearchFilters();
-renderResearch();
-renderHonors();
-byId("current-year").textContent = new Date().getFullYear();
+async function init() {
+  const response = await fetch("data/content.json");
+  if (!response.ok) throw new Error("网站内容加载失败");
+  content = await response.json();
+  renderProfile();
+  renderProjects();
+  renderTimeline("work-list", content.workExperience);
+  renderTimeline("education-list", content.education);
+  renderResearchFilters();
+  renderResearch();
+  renderHonors();
+  byId("current-year").textContent = new Date().getFullYear();
+}
+
+init().catch((error) => {
+  console.error(error);
+  document.querySelector("main").insertAdjacentHTML("afterbegin", `<p class="load-error">${escapeHtml(error.message)}，请稍后刷新。</p>`);
+});
