@@ -299,18 +299,39 @@
   ],
   "honors": [
     {
-      "name": "示例荣誉：优秀研究成果奖",
+      "name": "校优秀学生，一等奖学金",
       "type": "个人荣誉",
-      "issuer": "示例机构",
-      "year": "2024",
-      "preview": "assets/previews/certificate-example.svg"
+      "issuer": "西北工业大学",
+      "year": "2016",
+      "preview": "/personal-portfolio/assets/uploads/2015-2016年优秀学生.jpg"
     },
     {
-      "name": "示例竞赛：创新设计竞赛奖",
-      "type": "竞赛奖励",
-      "issuer": "示例机构",
-      "year": "2025",
-      "preview": "assets/previews/certificate-example.svg"
+      "name": "校优秀学生，一等奖学金",
+      "type": "个人荣誉",
+      "issuer": "西北工业大学",
+      "year": "2017",
+      "preview": "/personal-portfolio/assets/uploads/2016-2017年优秀学生.jpg"
+    },
+    {
+      "name": "校优秀学生，一等奖学金",
+      "type": "个人荣誉",
+      "issuer": "西北工业大学",
+      "year": "2018",
+      "preview": "/personal-portfolio/assets/uploads/2017-2018年优秀学生.jpg"
+    },
+    {
+      "name": "优秀研究生",
+      "type": "个人荣誉",
+      "issuer": "西北工业大学",
+      "year": "2020",
+      "preview": "/personal-portfolio/assets/uploads/2019-2020优秀研究生.jpg"
+    },
+    {
+      "name": "硕士研究生国家奖学金",
+      "type": "个人荣誉",
+      "issuer": "中华人民共和国教育部",
+      "year": "2019",
+      "preview": "/personal-portfolio/assets/uploads/2019国家奖学金.jpg"
     }
   ]
 }
