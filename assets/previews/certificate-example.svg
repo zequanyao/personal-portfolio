@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120">
+  <rect width="1600" height="1120" fill="#f5f0e5"/>
+  <rect x="42" y="42" width="1516" height="1036" fill="none" stroke="#1f5c49" stroke-width="6"/>
+  <rect x="62" y="62" width="1476" height="996" fill="none" stroke="#e36b3d" stroke-width="2"/>
+  <circle cx="800" cy="180" r="58" fill="#1f5c49"/><text x="800" y="197" text-anchor="middle" fill="#fffdf8" font-family="Georgia" font-size="50">✓</text>
+  <text x="800" y="330" text-anchor="middle" fill="#17201d" font-family="Georgia" font-size="72" font-weight="700">证 明 书</text>
+  <text x="800" y="400" text-anchor="middle" fill="#64706a" font-family="Arial" font-size="25" letter-spacing="5">CERTIFICATE OF ACHIEVEMENT</text>
+  <text x="800" y="545" text-anchor="middle" fill="#64706a" font-family="Arial" font-size="28">兹证明</text>
+  <text x="800" y="640" text-anchor="middle" fill="#1f5c49" font-family="Georgia" font-size="66" font-weight="700">林 晓</text>
+  <line x1="520" y1="675" x2="1080" y2="675" stroke="#c9cec7" stroke-width="2"/>
+  <text x="800" y="760" text-anchor="middle" fill="#17201d" font-family="Arial" font-size="30">已完成示例课程并取得优异成绩</text>
+  <text x="350" y="930" text-anchor="middle" fill="#64706a" font-family="Arial" font-size="22">2025 年 6 月</text>
+  <text x="1250" y="930" text-anchor="middle" fill="#64706a" font-family="Arial" font-size="22">示例机构</text>
+</svg>

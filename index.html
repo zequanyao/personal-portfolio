@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="个人项目、论文、证书与经历展示网站">
+  <title>林晓 · 个人主页</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="返回首页">LX</a>
+    <nav aria-label="主导航">
+      <a href="#about">关于</a>
+      <a href="#projects">项目</a>
+      <a href="#publications">论文</a>
+      <a href="#certificates">证书</a>
+      <a href="#experience">经历</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">个人作品集 · PORTFOLIO</p>
+      <h1>你好，我是<span id="profile-name">林晓</span>。</h1>
+      <p class="hero-copy" id="profile-intro">我关注材料工程与数据分析，喜欢把研究想法变成清晰、可靠的成果。</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#projects">查看我的项目</a>
+        <a class="button secondary" id="email-link" href="mailto:hello@example.com">联系我</a>
+      </div>
+      <div class="hero-meta" id="profile-meta"></div>
+    </section>
+
+    <section id="about" class="section split-section">
+      <div>
+        <p class="section-label">01 · 关于我</p>
+        <h2>持续学习，也认真记录。</h2>
+      </div>
+      <p id="about-text" class="large-copy"></p>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <div><p class="section-label">02 · 项目</p><h2>做过的一些事情</h2></div>
+        <p>从研究到实践，保留过程，也展示结果。</p>
+      </div>
+      <div id="project-list" class="card-grid"></div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="section-heading">
+        <div><p class="section-label">03 · 论文</p><h2>研究与发表</h2></div>
+        <p>点击论文题目可预览首页。</p>
+      </div>
+      <div id="publication-list" class="list-panel"></div>
+    </section>
+
+    <section id="certificates" class="section">
+      <div class="section-heading">
+        <div><p class="section-label">04 · 证书</p><h2>证书与荣誉</h2></div>
+        <p>点击证书名称可查看图片。</p>
+      </div>
+      <div id="certificate-list" class="certificate-grid"></div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-heading">
+        <div><p class="section-label">05 · 经历</p><h2>教育与工作</h2></div>
+      </div>
+      <div id="experience-list" class="timeline"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="current-year"></span> <span id="footer-name"></span></p>
+    <p>Built with care · Hosted on GitHub Pages</p>
+  </footer>
+
+  <dialog id="preview-dialog" aria-labelledby="preview-title">
+    <div class="dialog-bar">
+      <div><p class="section-label">图片预览</p><h3 id="preview-title"></h3></div>
+      <button id="close-preview" class="icon-button" aria-label="关闭预览">×</button>
+    </div>
+    <img id="preview-image" alt="">
+    <p id="preview-note" class="preview-note"></p>
+  </dialog>
+
+  <noscript>请启用 JavaScript 以查看网站内容。</noscript>
+  <script src="data/content.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>

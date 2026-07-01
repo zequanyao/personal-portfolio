@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <rect width="1200" height="1600" fill="#fffdf8"/>
+  <rect width="1200" height="48" fill="#1f5c49"/>
+  <text x="100" y="150" fill="#1f5c49" font-family="Arial" font-size="26" font-weight="700">JOURNAL OF EXAMPLE MATERIALS</text>
+  <text x="100" y="270" fill="#17201d" font-family="Georgia" font-size="54" font-weight="700">先进涂层的组织与性能研究</text>
+  <text x="100" y="335" fill="#64706a" font-family="Arial" font-size="24">林晓，合作者 · 2025</text>
+  <line x1="100" y1="390" x2="1100" y2="390" stroke="#c9cec7" stroke-width="2"/>
+  <text x="100" y="465" fill="#17201d" font-family="Arial" font-size="30" font-weight="700">摘要</text>
+  <g fill="#aab0ac">
+    <rect x="100" y="510" width="990" height="18" rx="9"/><rect x="100" y="550" width="960" height="18" rx="9"/>
+    <rect x="100" y="590" width="980" height="18" rx="9"/><rect x="100" y="630" width="820" height="18" rx="9"/>
+  </g>
+  <rect x="100" y="735" width="1000" height="520" rx="8" fill="#e5ece8"/>
+  <path d="M160 1150 C310 900 420 1080 560 850 S810 1050 1020 800" fill="none" stroke="#1f5c49" stroke-width="12"/>
+  <circle cx="310" cy="981" r="18" fill="#e36b3d"/><circle cx="560" cy="850" r="18" fill="#e36b3d"/><circle cx="810" cy="935" r="18" fill="#e36b3d"/>
+  <text x="100" y="1360" fill="#17201d" font-family="Arial" font-size="30" font-weight="700">关键词</text>
+  <text x="100" y="1410" fill="#64706a" font-family="Arial" font-size="24">先进材料 · 表面工程 · 组织结构 · 性能</text>
+  <text x="100" y="1510" fill="#9ba29e" font-family="Arial" font-size="20">这是用于展示预览功能的示例首页</text>
+</svg>
