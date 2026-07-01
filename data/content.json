@@ -332,6 +332,55 @@
       "issuer": "中华人民共和国教育部",
       "year": "2019",
       "preview": "/personal-portfolio/assets/uploads/2019国家奖学金.jpg"
+    },
+    {
+      "name": "优秀研究生",
+      "type": "个人荣誉",
+      "issuer": "西北工业大学",
+      "year": "2021",
+      "preview": "/personal-portfolio/assets/uploads/2020-2021优秀研究生.jpg"
+    },
+    {
+      "name": "优秀学生共产党员",
+      "type": "个人荣誉",
+      "issuer": "中共西北工业大学委员会",
+      "year": "2021",
+      "preview": "/personal-portfolio/assets/uploads/2020-2021校优秀共产党员.jpg"
+    },
+    {
+      "name": "硕士研究生国家奖学金",
+      "type": "个人荣誉",
+      "issuer": "中华人民共和国教育部",
+      "year": "2020",
+      "preview": "/personal-portfolio/assets/uploads/2020硕士国家奖学金.jpg"
+    },
+    {
+      "name": "硕士研究生国家奖学金",
+      "type": "个人荣誉",
+      "issuer": "中华人民共和国教育部",
+      "year": "2021",
+      "preview": "/personal-portfolio/assets/uploads/2021硕士国家奖学金.jpg"
+    },
+    {
+      "name": "法士特齿轮三等奖",
+      "type": "个人荣誉",
+      "issuer": "西北工业大学",
+      "year": "2017",
+      "preview": "/personal-portfolio/assets/uploads/201712法士特齿轮三等奖学金.jpg"
+    },
+    {
+      "name": "法士特齿轮三等奖",
+      "type": "个人荣誉",
+      "issuer": "西北工业大学",
+      "year": "2018",
+      "preview": "/personal-portfolio/assets/uploads/201812法士特齿轮三等奖学金.jpg"
+    },
+    {
+      "name": "本科优秀毕业生",
+      "type": "个人荣誉",
+      "issuer": "西北工业大学",
+      "year": "2019",
+      "preview": "/personal-portfolio/assets/uploads/201906本科优秀毕业生.jpg"
     }
   ]
 }
