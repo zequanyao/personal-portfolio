@@ -5,6 +5,14 @@ const escapeHtml = (value = "") => String(value).replace(/[&<>'"]/g, (char) => (
   "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
 }[char]));
 
+function sortNewestFirst(items) {
+  const yearValue = (item) => {
+    const match = String(item.year || "").match(/\d{4}/);
+    return match ? Number(match[0]) : 0;
+  };
+  return [...items].sort((a, b) => yearValue(b) - yearValue(a));
+}
+
 function renderProfile() {
   byId("profile-name").textContent = content.profile.name;
   byId("footer-name").textContent = content.profile.name;
@@ -50,7 +58,8 @@ function renderTimeline(target, items) {
 }
 
 function renderResearch(filter = "全部") {
-  const items = filter === "全部" ? content.research : content.research.filter((item) => item.type === filter);
+  const filteredItems = filter === "全部" ? content.research : content.research.filter((item) => item.type === filter);
+  const items = sortNewestFirst(filteredItems);
   byId("research-list").innerHTML = items.map((item) => `
     <article class="publication">
       <span class="publication-year">${escapeHtml(item.year)}</span>
@@ -71,7 +80,7 @@ function renderResearchFilters() {
 }
 
 function renderHonors() {
-  byId("honor-list").innerHTML = content.honors.map((honor) => `
+  byId("honor-list").innerHTML = sortNewestFirst(content.honors).map((honor) => `
     <article class="certificate">
       <span class="certificate-icon">★</span>
       ${previewButton(honor.name, honor.preview)}
