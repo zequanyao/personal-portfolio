@@ -111,7 +111,7 @@
       "year": "2023",
       "type": "论文",
       "title": "Position-dependent milling process monitoring and surface roughness prediction for complex thin-walled blade component",
-      "authors": "Zequan Yao; Jingyuan Shen; Ming Wu; Dinghua Zhang; Ming Luo*",
+      "authors": "Zequan Yao, Jingyuan Shen, Ming Wu, Dinghua Zhang, Ming Luo*",
       "venue": "Mechanical Systems and Signal Processing",
       "preview": "/personal-portfolio/assets/uploads/Position-dependent milling process monitoring and surface.jpg",
       "link": "https://doi.org/10.1016/j.ymssp.2023.110439"
@@ -120,7 +120,7 @@
       "year": "2024",
       "type": "论文",
       "title": "Extreme learning machine oriented surface roughness prediction at continuous cutting positions based on monitored acceleration",
-      "authors": "Zequan Yao; Puyu Zhang; Ming Luo*",
+      "authors": "Zequan Yao, Puyu Zhang, Ming Luo*",
       "venue": "Mechanical Systems and Signal Processing",
       "preview": "/personal-portfolio/assets/uploads/Extreme learning machine oriented surface roughness prediction.jpg",
       "link": "https://doi.org/10.1016/j.ymssp.2024.111633"
@@ -129,10 +129,64 @@
       "year": "2025",
       "type": "论文",
       "title": "Data-driven models with physical interpretability for real-time cavity profile prediction in electrochemical machining processes",
-      "authors": "Ming Wu; Zequan Yao; Mathias Verbeke; Peter Karsmakers; Benjamin Gorissen; Dominiek Reynaerts*",
+      "authors": "Ming Wu, Zequan Yao, Mathias Verbeke, Peter Karsmakers, Benjamin Gorissen, Dominiek Reynaerts*",
       "venue": "Engineering Applications of Artificial Intelligence",
       "preview": "/personal-portfolio/assets/uploads/Data-driven models with physical interpretability for real-time cavity profile.jpg",
       "link": "https://doi.org/10.1016/j.engappai.2025.111807"
+    },
+    {
+      "year": "2025",
+      "type": "论文",
+      "title": "Tackling data scarcity in machine learning-based CFRP drilling performance prediction through a broad learning system with virtual sample generation (BLS-VSG)",
+      "authors": "Jia Ge, Zequan Yao, Ming Wu*, José Humberto S. Almeida Jr, Yan Jin, Dan Sun",
+      "venue": "Composites Part B: Engineering",
+      "preview": "/personal-portfolio/assets/uploads/Tackling data scarcity in machine learning-based CFRP drilling.jpg",
+      "link": "https://doi.org/10.1016/j.compositesb.2025.112701"
+    },
+    {
+      "year": "2025",
+      "type": "论文",
+      "title": "Intelligent discharge state detection in micro-EDM process with cost-effective radio frequency (RF) radiation: Integrating machine learning and interpretable AI",
+      "authors": "Zequan Yao, Ming Wu, Jun Qian, Dominiek Reynaerts*",
+      "venue": "Expert Systems with Applications",
+      "preview": "/personal-portfolio/assets/uploads/Intelligent discharge state detection in micro-EDM process with.jpg",
+      "link": "https://doi.org/10.1016/j.eswa.2025.128607"
+    },
+    {
+      "year": "2025",
+      "type": "论文",
+      "title": "Prediction of crater morphology and its application for enhancing dimensional accuracy in micro-EDM",
+      "authors": "Zequan Yao, Long Ye, Ming Wu, Jun Qian, Dominiek Reynaerts*",
+      "venue": "Journal of Intelligent Manufacturing",
+      "preview": "/personal-portfolio/assets/uploads/Prediction of crater morphology and its application for enhancing.jpg",
+      "link": "https://doi.org/10.1007/s10845-024-02430-2"
+    },
+    {
+      "year": "2021",
+      "type": "论文",
+      "title": "Position dependent vibration evaluation in milling of thin-walled part based on single-point monitoring",
+      "authors": "Zequan Yao, Ming Luo*, Jiawei Mei, Dinghua Zhang",
+      "venue": "Measurement",
+      "preview": "/personal-portfolio/assets/uploads/Position dependent vibration evaluation in milling of thin-walled part.jpg",
+      "link": "https://doi.org/10.1016/j.measurement.2020.108810"
+    },
+    {
+      "year": "2021",
+      "type": "论文",
+      "title": "Position-varying surface roughness prediction method considering compensated acceleration in milling of thin-walled workpiece",
+      "authors": "Zequan Yao, Chang Fan, Zhao Zhang, Dinghua Zhang, Ming Luo*",
+      "venue": "Frontiers of Mechanical Engineering",
+      "preview": "/personal-portfolio/assets/uploads/Position-varying surface roughness prediction method.jpg",
+      "link": "https://doi.org/10.1007/s11465-021-0649-z"
+    },
+    {
+      "year": "2025",
+      "type": "论文",
+      "title": "On-machine evaluation of micro-EDM process signature in radio frequency (RF) domain: A step towards cost-effective data collection in a multiphysical process",
+      "authors": "Zequan Yao, Krishna Kumar Saxena, Vladimir Volski, Jun Qian, Guy Vandenbosch, Dominiek Reynaerts*",
+      "venue": "Journal of Materials Processing Technology",
+      "preview": "/personal-portfolio/assets/uploads/On-machine evaluation of micro-EDM process signature in radio frequency.jpg",
+      "link": "https://doi.org/10.1016/j.jmatprotec.2024.118663"
     }
   ],
   "honors": [
