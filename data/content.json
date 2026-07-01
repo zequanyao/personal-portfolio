@@ -402,6 +402,34 @@
       "issuer": "西北工业大学",
       "year": "2019",
       "preview": "/personal-portfolio/assets/uploads/20190620优秀本科毕业设计.jpg"
+    },
+    {
+      "name": "euspen talent programme winner",
+      "type": "个人荣誉",
+      "issuer": "欧洲精密工程与纳米制造协会",
+      "year": "2025",
+      "preview": "/personal-portfolio/assets/uploads/euspen talent.jpg"
+    },
+    {
+      "name": "SAKURA SCIENCE Exchange Program",
+      "type": "个人荣誉",
+      "issuer": "日本科学技术振兴机构",
+      "year": "2023",
+      "preview": "/personal-portfolio/assets/uploads/japan-skura.jpg"
+    },
+    {
+      "name": "优秀硕士学位论文",
+      "type": "个人荣誉",
+      "issuer": "西北工业大学",
+      "year": "2022",
+      "preview": "/personal-portfolio/assets/uploads/优秀硕士毕业论文.jpg"
+    },
+    {
+      "name": "陕西省普通高等学校优秀毕业生",
+      "type": "个人荣誉",
+      "issuer": "陕西省教育厅",
+      "year": "2022",
+      "preview": "/personal-portfolio/assets/uploads/陕西省优秀毕业生.jpg"
     }
   ]
 }
